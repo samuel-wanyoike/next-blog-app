@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
-import styles from './page.module.css'
+import Posts from './components/Posts'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -10,9 +10,10 @@ export default function Home() {
       <p className='mt-12 mb-12 text-3xl text-center text-white'>
         Hello and Welcome 👋
         <span className='whitespace-nowrap'>
-          I'm <span className='font-bold'>Wanyoike</span>
+          I&apos;m <span className='font-bold'>Wanyoike</span>
         </span>
       </p>
+      <Posts />
      
     </main>
   )
