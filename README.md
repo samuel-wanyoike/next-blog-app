@@ -1,2 +1,2 @@
 ## A blog-app
-builT using next.js and Tailwind CSS
+built using next.js and Tailwind CSS
